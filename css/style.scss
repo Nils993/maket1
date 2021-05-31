@@ -1,0 +1,237 @@
+* {
+  margin: 0;
+}
+@import "fontstyle.scss";
+
+.container {
+  max-width: 1920px;
+}
+
+.header {
+  width: 100%;
+  height: 1024px;
+  background-image: url(../img/bg_photo_11949.png);
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.wraper-nav {
+  display: flex;
+  justify-content: center;
+}
+
+.logo {
+  display: block;
+  margin: 0 0 0 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 180px;
+  text-decoration: none;
+  margin: 0 130px 0 0;
+  padding: 40px 0 0 0;
+  box-sizing: border-box;
+
+  &-icon {
+    width: 64px;
+    height: 56px;
+  }
+  &-txt {
+    font-family: Raleway;
+    font-size: 34px;
+    line-height: 1.2;
+    font-weight: 400;
+    letter-spacing: -0.04em;
+    color: #ffffff;
+  }
+}
+.menu {
+  padding: 61px 0 0 0;
+  box-sizing: border-box;
+  &-item {
+    font-family: Montserrat;
+    font-size: 14px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #ffffff;
+    text-decoration: none;
+    margin: 0 0 0 30px;
+    box-sizing: border-box;
+    &:hover {
+      color: #c7b299;
+    }
+  }
+}
+.basket {
+  padding: 55px 0 0 0;
+  margin: 0 28px 0 63px;
+  box-sizing: border-box;
+}
+.search {
+  padding: 55px 0 0 0;
+  display: flex;
+}
+.search-icon {
+}
+
+.search-form {
+  background: none;
+  border: none;
+  outline: none;
+  &:focus {
+    width: 300px;
+    background-color: #ffffff;
+  }
+}
+.header-info {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  margin: 309px 0 0 0;
+  &-next {
+    background: none;
+    border: none;
+    height: 73px;
+    opacity: 0.5;
+  }
+  .next-img {
+    fill: #ffffff;
+
+    &:hover {
+      fill: #c7b299;
+    }
+  }
+
+  &-item {
+    width: 595px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 410px 0 410px;
+
+    &-title2 {
+      font-family: Raleway;
+      font-size: 36px;
+      line-height: 1.2;
+      font-weight: 500;
+      color: #ffffff;
+    }
+    &-title1 {
+      font-family: Raleway;
+      font-size: 52px;
+      line-height: 1.2;
+      font-weight: 800;
+      color: #ffffff;
+      margin: 14px 0 19px 0;
+    }
+
+    &-txt {
+      font-family: Montserrat;
+      font-size: 16px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #ffffff;
+      width: 580px;
+    }
+    &-btn {
+      display: block;
+      margin: 52px 0 0 0;
+      width: 170px;
+      height: 53px;
+      background-color: #998675;
+      box-shadow: inset 0px -3px 0px 0px #736357;
+      border-radius: 3px;
+      text-decoration: none;
+      &-txt {
+        font-family: raleway;
+        font-size: 14px;
+        line-height: 23px;
+        font-weight: 800;
+        text-transform: uppercase;
+        color: #ffffff;
+        display: block;
+        text-align: center;
+      }
+    }
+  }
+  &-Pagination {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 290px 0 0 0;
+    &-item {
+      align-items: flex-end;
+      margin: 0 5px 0 5px;
+      display: block;
+      width: 11px;
+      height: 11px;
+      opacity: 0.5;
+      border: 1px solid;
+      border-radius: 50%;
+      background-color: #fff;
+      &:hover {
+        width: 12px;
+        height: 12px;
+        background-color: rgba(255, 255, 255, 0);
+        border: 2px solid #d3c1ad;
+      }
+    }
+  }
+}
+//section1
+.section1 {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 80px 377px;
+  box-sizing: border-box;
+
+  .Web {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 270px;
+    height: 180px;
+    text-align: center;
+    margin: 0 17px;
+
+    .web-icon {
+      fill: #555555;
+    }
+    &:hover .web-icon {
+      fill: #c7b299;
+    }
+
+    .web-title {
+      font-family: Raleway;
+      font-size: 22px;
+      line-height: 1.2;
+      font-weight: 600;
+      color: #555555;
+      width: 100%;
+      margin: 29px 0 19px 0;
+    }
+    &:hover .web-title {
+      color: #c7b299;
+    }
+    .web-txt {
+      width: 244px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 24px;
+      font-weight: 300;
+      color: #8c8c8c;
+    }
+    &::after {
+      content: "";
+      display: block;
+      width: 70px;
+      height: 3px;
+      background-color: #f1eee9;
+      margin: 33px 0 0 0;
+    }
+    &:hover:after {
+      background-color: #c7b299;
+    }
+  }
+}
