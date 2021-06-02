@@ -235,3 +235,122 @@
     }
   }
 }
+//section screen
+.screen {
+  width: 100%;
+  background-color: #fbfaf8;
+  padding: 83px 0 0 0;
+  box-sizing: border-box;
+  &-info {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  &-title {
+    display: block;
+    width: 100%;
+    text-align: center;
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+  }
+  &-txt {
+    text-align: center;
+    width: 685px;
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+    margin: 24px 0 40px 0;
+  }
+  &-wraper {
+    display: flex;
+    justify-content: center;
+    position: relative;
+    align-items: center;
+  }
+  &-img {
+  }
+  .first {
+    position: absolute;
+    left: 335px;
+    bottom: 0px;
+    &:hover {
+      z-index: 2;
+    }
+  }
+  .second {
+    position: relative;
+    z-index: 1;
+  }
+  .third {
+    position: absolute;
+    right: 335px;
+    bottom: 0px;
+    &:hover {
+      z-index: 2;
+    }
+  }
+}
+
+//Purchase
+.Purchase {
+  display: flex;
+  justify-content: space-between;
+  box-sizing: border-box;
+  background-color: #241c1a;
+  padding: 48px 377px;
+
+  &-title {
+    font-family: Raleway;
+    font-size: 28px;
+    line-height: 1.2;
+    font-weight: 400;
+    color: #ffffff;
+    &-wxm {
+      color: #c7b299;
+    }
+  }
+  &-txt {
+    font-family: Montserrat;
+    font-size: 18px;
+    line-height: 1.2;
+    font-weight: 300;
+    color: #615855;
+    margin: 8px 0 0 0;
+  }
+  &-btn {
+    width: 170px;
+    height: 50px;
+    background-color: #998675;
+    box-shadow: inset 0px -3px 0px 0px #736357;
+    border-radius: 3px;
+    font-family: Raleway;
+    font-size: 14px;
+    line-height: 23px;
+    font-weight: 800;
+    text-transform: uppercase;
+    color: #ffffff;
+  }
+}
+
+//Projects
+.Projects {
+  &-title {
+    font-family: Raleway;
+    font-size: 30px;
+    line-height: 1.2;
+    font-weight: 600;
+    color: #555555;
+  }
+  &-txt {
+    font-family: Montserrat;
+    font-size: 16px;
+    line-height: 28px;
+    font-weight: 300;
+    color: #8c8c8c;
+  }
+}
