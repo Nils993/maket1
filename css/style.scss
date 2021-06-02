@@ -339,12 +339,19 @@
 
 //Projects
 .Projects {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  padding: 80px 377px;
+  box-sizing: border-box;
   &-title {
+    width: 100%;
     font-family: Raleway;
     font-size: 30px;
     line-height: 1.2;
     font-weight: 600;
     color: #555555;
+    text-align: center;
   }
   &-txt {
     font-family: Montserrat;
@@ -352,5 +359,35 @@
     line-height: 28px;
     font-weight: 300;
     color: #8c8c8c;
+    width: 760px;
+    text-align: center;
+    margin: 24px 0 40px 0;
+  }
+  .item-wraper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-sizing: border-box;
+
+    .projects-item {
+      margin: 0px 5px;
+      text-decoration: none;
+      padding: 10px 20px;
+      box-sizing: border-box;
+      text-align: center;
+      height: 32px;
+      background-color: rgba(17, 17, 17, 0);
+      border: 1px solid #ebebeb;
+      border-radius: 3px;
+      font-family: Montserrat;
+      font-size: 14px;
+      line-height: 21px;
+      font-weight: 300;
+      color: #8c8c8c;
+      &:hover {
+        background-color: #998675;
+        color: #ffffff;
+      }
+    }
   }
 }
