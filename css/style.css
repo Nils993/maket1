@@ -493,7 +493,7 @@
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  padding: 80px 377px;
+  padding: 80px 345px;
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
 }
@@ -552,5 +552,203 @@
 .Projects .item-wraper .projects-item:hover {
   background-color: #998675;
   color: #ffffff;
+}
+
+.Projects .projects-img-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  margin: 40px 0 48px 0;
+}
+
+.Projects .projects-img-wrap .projects-img {
+  margin: 0 15px 30px 15px;
+  position: relative;
+}
+
+.Projects .projects-img-wrap .projects-img .projects-picture {
+  display: block;
+}
+
+.Projects .projects-img-wrap .projects-img-txt {
+  width: 370px;
+  height: 100px;
+  background-color: #fbfaf8;
+  padding: 30px 0 27px 28px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  position: relative;
+}
+
+.Projects .projects-img-wrap .projects-img-txt::before {
+  content: "";
+  display: block;
+  border: 20px solid transparent;
+  border-bottom: 18px solid #fbfaf8;
+  position: absolute;
+  top: -32px;
+  left: 10px;
+}
+
+.Projects .projects-img-wrap .projects-img-txt-title {
+  font-family: Raleway;
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #c7b299;
+}
+
+.Projects .projects-img-wrap .projects-img-txt-text {
+  margin: 10px 0 0 0;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 20px;
+  font-weight: 300;
+  color: #d1d1d1;
+}
+
+.Projects .projects-img-wrap .projects-img .article-btn-link {
+  background-image: url(../img/link_10955.png);
+  left: 40%;
+}
+
+.Projects .projects-img-wrap .projects-img .article-btn-search {
+  background-image: url(../img/lupa_10956.png);
+  right: 40%;
+}
+
+.Projects .projects-img-wrap .projects-img .article-btn-link,
+.Projects .projects-img-wrap .projects-img .article-btn-search {
+  display: block;
+  width: 26px;
+  height: 26px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border: none;
+  background-color: transparent;
+  position: absolute;
+  top: 30%;
+  display: none;
+}
+
+.Projects .projects-img-wrap .projects-img:hover .projects-picture {
+  -webkit-filter: brightness(25%);
+          filter: brightness(25%);
+}
+
+.Projects .projects-img-wrap .projects-img:hover .article-btn-link {
+  display: block;
+}
+
+.Projects .projects-img-wrap .projects-img:hover .projects-img-txt {
+  background-color: #362f2d;
+}
+
+.Projects .projects-img-wrap .projects-img:hover .projects-img-txt::before {
+  border-bottom: 20px solid #362f2d;
+}
+
+.Projects .projects-img-wrap .projects-img:hover .article-btn-search {
+  display: block;
+}
+
+.Projects .Projects-btn {
+  font-family: Raleway;
+  font-size: 14px;
+  line-height: 23px;
+  font-weight: 800;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 170px;
+  height: 50px;
+  background-color: #998675;
+  -webkit-box-shadow: inset 0px -3px 0px 0px #736357;
+          box-shadow: inset 0px -3px 0px 0px #736357;
+  border-radius: 3px;
+  border: none;
+}
+
+.video {
+  position: relative;
+}
+
+.video-file {
+  width: 100%;
+  height: 705px;
+}
+
+.video .video-txt-wraper {
+  width: 24%;
+  position: absolute;
+  top: 210px;
+  left: 685px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  text-align: center;
+}
+
+.video .video-txt-wraper .video-play {
+  fill: white;
+  border: none;
+  border-radius: 50%;
+  width: 100px;
+  height: 100px;
+  opacity: 0.2;
+  background-color: #020202;
+}
+
+.video .video-txt-wraper .video-play-icon {
+  fill: white;
+}
+
+.video .video-txt-wraper .video-play:hover .video-play-icon {
+  fill: red;
+}
+
+.video .video-txt-wraper .video-play:active .video-play-icon {
+  fill: cyan;
+}
+
+.video .video-txt-wraper .video-title {
+  width: 100%;
+  display: block;
+  font-family: Raleway;
+  font-size: 30px;
+  line-height: 1.2;
+  font-weight: 500;
+  color: #ffffff;
+  margin: 44px 0 29px 0;
+}
+
+.video .video-txt-wraper .video-txt {
+  text-align: center;
+  font-family: Montserrat;
+  font-size: 16px;
+  line-height: 28px;
+  font-weight: 300;
+  color: #ffffff;
+}
+
+.video .video-txt-wraper .video-time {
+  display: block;
+  font-family: Montserrat;
+  font-size: 14px;
+  line-height: 24px;
+  font-weight: 400;
+  color: #c7b299;
+  margin: 40px 0;
 }
 /*# sourceMappingURL=style.css.map */
